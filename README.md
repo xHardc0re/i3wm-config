@@ -23,7 +23,7 @@ This is a customized configuration file (`config`) for the i3 window manager (i3
 
 ### Dependencies
 
-Install nerd fonts as well as the following packages to ensure all features work as expected:
+Install NerdFonts as well as the following packages to ensure all features work as expected:
 
 ```bash
 sudo apt update
