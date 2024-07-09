@@ -23,11 +23,11 @@ This is a customized configuration file (`config`) for the i3 window manager (i3
 
 ### Dependencies
 
-Install the following packages to ensure all features work as expected:
+Install nerd fonts as well as the following packages to ensure all features work as expected:
 
 ```bash
 sudo apt update
-sudo apt install i3 i3status i3lock xsetroot autorandr fonts-firacode
+sudo apt install i3 i3status i3lock xsetroot autorandr
 ```
 
 ## External i3bar Configuration
