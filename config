@@ -193,8 +193,8 @@ set $lightgray #bdae93
 bar {
         status_command i3status -c /home/$USER/.config/i3status/i3status.conf
         mode hide
-	position top
-	tray_output none
+        position top
+        tray_output none
         colors {
             background $bg
             statusline $lightgray
