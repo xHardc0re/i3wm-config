@@ -217,6 +217,9 @@ exec --no-startup-id xsetroot -bg "#000000"
 # Border
 for_window [class="^.*"] border pixel 0
 
+# Compositor
+exec --no-startup-id picom --config ~/.config/picom/picom.conf -b
+
 # Monitors
 exec --no-startup-id autorandr --change
 
