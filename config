@@ -217,11 +217,11 @@ exec --no-startup-id xsetroot -bg "#000000"
 # Border
 for_window [class="^.*"] border pixel 0
 
-# Compositor
-exec --no-startup-id picom --config ~/.config/picom/picom.conf --no-fading-openclose -b
-
 # Monitors
 exec --no-startup-id autorandr --change
+
+# Compositor
+exec --no-startup-id sleep 5 && picom --config ~/.config/picom/picom.conf --no-fading-openclose -b
 
 # Language switch
 exec_always "setxkbmap -model pc104 -layout us,gr -variant ,, -option grp:alt_shift_toggle"
