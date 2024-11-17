@@ -221,7 +221,7 @@ exec --no-startup-id sleep 5 && autorandr --change
 exec --no-startup-id sleep 5 && picom --config ~/.config/picom/picom.conf --no-fading-openclose -b
 
 # Desktop background
-exec --no-startup-id sleep 5 && hsetroot -bg "#000000"
+exec --no-startup-id hsetroot -solid "#000000"
 
 # Language switch
 exec_always "setxkbmap -model pc104 -layout us,gr -variant ,, -option grp:alt_shift_toggle"
